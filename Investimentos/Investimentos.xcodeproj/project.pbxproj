@@ -56,15 +56,55 @@
 		68DC9F132617A3540051ABDF /* Investimentos */ = {
 			isa = PBXGroup;
 			children = (
-				68DC9F142617A3540051ABDF /* AppDelegate.swift */,
-				68DC9F162617A3540051ABDF /* SceneDelegate.swift */,
-				68DC9F182617A3540051ABDF /* ViewController.swift */,
-				68DC9F1A2617A3540051ABDF /* Main.storyboard */,
-				68DC9F1D2617A3570051ABDF /* Assets.xcassets */,
-				68DC9F1F2617A3570051ABDF /* LaunchScreen.storyboard */,
-				68DC9F222617A3570051ABDF /* Info.plist */,
+				68DC9F292617A5B40051ABDF /* AppResources */,
+				68DC9F2A2617A5DD0051ABDF /* AppSettings */,
+				68DC9F2B2617A5F40051ABDF /* Helpers */,
+				68DC9F2C2617A6000051ABDF /* Scene */,
+				68DC9F2D2617A60B0051ABDF /* Service */,
 			);
 			path = Investimentos;
+			sourceTree = "<group>";
+		};
+		68DC9F292617A5B40051ABDF /* AppResources */ = {
+			isa = PBXGroup;
+			children = (
+				68DC9F1D2617A3570051ABDF /* Assets.xcassets */,
+				68DC9F222617A3570051ABDF /* Info.plist */,
+			);
+			path = AppResources;
+			sourceTree = "<group>";
+		};
+		68DC9F2A2617A5DD0051ABDF /* AppSettings */ = {
+			isa = PBXGroup;
+			children = (
+				68DC9F142617A3540051ABDF /* AppDelegate.swift */,
+				68DC9F162617A3540051ABDF /* SceneDelegate.swift */,
+			);
+			path = AppSettings;
+			sourceTree = "<group>";
+		};
+		68DC9F2B2617A5F40051ABDF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		68DC9F2C2617A6000051ABDF /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				68DC9F182617A3540051ABDF /* ViewController.swift */,
+				68DC9F1A2617A3540051ABDF /* Main.storyboard */,
+				68DC9F1F2617A3570051ABDF /* LaunchScreen.storyboard */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		68DC9F2D2617A60B0051ABDF /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
