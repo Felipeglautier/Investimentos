@@ -1,0 +1,49 @@
+Investimentos/Podfile
+Investimentos/Podfile.lock
+Investimentos/Investimentos.xcworkspace/contents.xcworkspacedata
+Investimentos/Investimentos.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+Investimentos/Investimentos.xcworkspace/xcuserdata/lipeglautier.xcuserdatad/UserInterfaceState.xcuserstate
+Investimentos/Pods/Manifest.lock
+Investimentos/Pods/Alamofire/LICENSE
+Investimentos/Pods/Alamofire/README.md
+Investimentos/Pods/Alamofire/Source/AFError.swift
+Investimentos/Pods/Alamofire/Source/Alamofire.swift
+Investimentos/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift
+Investimentos/Pods/Alamofire/Source/MultipartFormData.swift
+Investimentos/Pods/Alamofire/Source/NetworkReachabilityManager.swift
+Investimentos/Pods/Alamofire/Source/Notifications.swift
+Investimentos/Pods/Alamofire/Source/ParameterEncoding.swift
+Investimentos/Pods/Alamofire/Source/Request.swift
+Investimentos/Pods/Alamofire/Source/Response.swift
+Investimentos/Pods/Alamofire/Source/ResponseSerialization.swift
+Investimentos/Pods/Alamofire/Source/Result.swift
+Investimentos/Pods/Alamofire/Source/ServerTrustPolicy.swift
+Investimentos/Pods/Alamofire/Source/SessionDelegate.swift
+Investimentos/Pods/Alamofire/Source/SessionManager.swift
+Investimentos/Pods/Alamofire/Source/TaskDelegate.swift
+Investimentos/Pods/Alamofire/Source/Timeline.swift
+Investimentos/Pods/Alamofire/Source/Validation.swift
+Investimentos/Pods/Pods.xcodeproj/project.pbxproj
+Investimentos/Pods/Pods.xcodeproj/xcuserdata/lipeglautier.xcuserdatad/xcschemes/Alamofire.xcscheme
+Investimentos/Pods/Pods.xcodeproj/xcuserdata/lipeglautier.xcuserdatad/xcschemes/Pods-Investimentos.xcscheme
+Investimentos/Pods/Pods.xcodeproj/xcuserdata/lipeglautier.xcuserdatad/xcschemes/xcschememanagement.plist
+Investimentos/Pods/Target Support Files/Alamofire/Alamofire-dummy.m
+Investimentos/Pods/Target Support Files/Alamofire/Alamofire-Info.plist
+Investimentos/Pods/Target Support Files/Alamofire/Alamofire-prefix.pch
+Investimentos/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h
+Investimentos/Pods/Target Support Files/Alamofire/Alamofire.debug.xcconfig
+Investimentos/Pods/Target Support Files/Alamofire/Alamofire.modulemap
+Investimentos/Pods/Target Support Files/Alamofire/Alamofire.release.xcconfig
+Investimentos/Pods/Target Support Files/Pods-Investimentos/Pods-Investimentos-acknowledgements.markdown
+Investimentos/Pods/Target Support Files/Pods-Investimentos/Pods-Investimentos-acknowledgements.plist
+Investimentos/Pods/Target Support Files/Pods-Investimentos/Pods-Investimentos-dummy.m
+Investimentos/Pods/Target Support Files/Pods-Investimentos/Pods-Investimentos-frameworks-Debug-input-files.xcfilelist
+Investimentos/Pods/Target Support Files/Pods-Investimentos/Pods-Investimentos-frameworks-Debug-output-files.xcfilelist
+Investimentos/Pods/Target Support Files/Pods-Investimentos/Pods-Investimentos-frameworks-Release-input-files.xcfilelist
+Investimentos/Pods/Target Support Files/Pods-Investimentos/Pods-Investimentos-frameworks-Release-output-files.xcfilelist
+Investimentos/Pods/Target Support Files/Pods-Investimentos/Pods-Investimentos-frameworks.sh
+Investimentos/Pods/Target Support Files/Pods-Investimentos/Pods-Investimentos-Info.plist
+Investimentos/Pods/Target Support Files/Pods-Investimentos/Pods-Investimentos-umbrella.h
+Investimentos/Pods/Target Support Files/Pods-Investimentos/Pods-Investimentos.debug.xcconfig
+Investimentos/Pods/Target Support Files/Pods-Investimentos/Pods-Investimentos.modulemap
+Investimentos/Pods/Target Support Files/Pods-Investimentos/Pods-Investimentos.release.xcconfig
