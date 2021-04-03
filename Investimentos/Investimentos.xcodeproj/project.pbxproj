@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68981EF02618E99900B6B6BA /* Fund.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68981EEF2618E99900B6B6BA /* Fund.swift */; };
+		68981EF52618ECE800B6B6BA /* Operability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68981EF42618ECE800B6B6BA /* Operability.swift */; };
+		68981EF92618ED3D00B6B6BA /* Specification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68981EF82618ED3D00B6B6BA /* Specification.swift */; };
+		68981EFC2618F17400B6B6BA /* FundSuitabilityProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68981EFB2618F17400B6B6BA /* FundSuitabilityProfile.swift */; };
 		68DC9F152617A3540051ABDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DC9F142617A3540051ABDF /* AppDelegate.swift */; };
 		68DC9F172617A3540051ABDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DC9F162617A3540051ABDF /* SceneDelegate.swift */; };
 		68DC9F192617A3540051ABDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DC9F182617A3540051ABDF /* ViewController.swift */; };
@@ -18,6 +22,10 @@
 
 /* Begin PBXFileReference section */
 		4B369A4318DA75DF52025D7D /* Pods_Investimentos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Investimentos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68981EEF2618E99900B6B6BA /* Fund.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fund.swift; sourceTree = "<group>"; };
+		68981EF42618ECE800B6B6BA /* Operability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operability.swift; sourceTree = "<group>"; };
+		68981EF82618ED3D00B6B6BA /* Specification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specification.swift; sourceTree = "<group>"; };
+		68981EFB2618F17400B6B6BA /* FundSuitabilityProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundSuitabilityProfile.swift; sourceTree = "<group>"; };
 		68DC9F112617A3540051ABDF /* Investimentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Investimentos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68DC9F142617A3540051ABDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68DC9F162617A3540051ABDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,13 +59,33 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		68981EF22618E9A400B6B6BA /* Fund */ = {
+			isa = PBXGroup;
+			children = (
+				68981EF32618ECC000B6B6BA /* Entities */,
+			);
+			path = Fund;
+			sourceTree = "<group>";
+		};
+		68981EF32618ECC000B6B6BA /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				68981EEF2618E99900B6B6BA /* Fund.swift */,
+				68981EFB2618F17400B6B6BA /* FundSuitabilityProfile.swift */,
+				68981EF42618ECE800B6B6BA /* Operability.swift */,
+				68981EF82618ED3D00B6B6BA /* Specification.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 		68DC9F082617A3540051ABDF = {
 			isa = PBXGroup;
 			children = (
-				68DC9F132617A3540051ABDF /* Investimentos */,
-				68DC9F122617A3540051ABDF /* Products */,
-				5DD721BA36884893BE40A276 /* Pods */,
 				AEA7545A72032BC7F7ADFE1D /* Frameworks */,
+				68981EF22618E9A400B6B6BA /* Fund */,
+				68DC9F132617A3540051ABDF /* Investimentos */,
+				5DD721BA36884893BE40A276 /* Pods */,
+				68DC9F122617A3540051ABDF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -247,6 +275,10 @@
 			files = (
 				68DC9F192617A3540051ABDF /* ViewController.swift in Sources */,
 				68DC9F152617A3540051ABDF /* AppDelegate.swift in Sources */,
+				68981EF52618ECE800B6B6BA /* Operability.swift in Sources */,
+				68981EFC2618F17400B6B6BA /* FundSuitabilityProfile.swift in Sources */,
+				68981EF92618ED3D00B6B6BA /* Specification.swift in Sources */,
+				68981EF02618E99900B6B6BA /* Fund.swift in Sources */,
 				68DC9F172617A3540051ABDF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
