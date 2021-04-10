@@ -5,7 +5,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var TableView1: UITableView!
     
-    var dice = ["Vamos", "Estudar", "Oque?", "Hoje", "?", "..."]
+    var dice = ["Meta Plus Fim", "Sparta Debêntures Incentivadas FIRF CP", "CA Indosuez? Infraestrutura Incentivado FIC FI...", "Vinci Multiestratégia Fim", "Quatá Select Light ", "..."]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,12 +25,14 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return dice.count
+        return 6
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = TableView1.dequeueReusableCell(withIdentifier: "animalCell", for: indexPath)
-        cell.textLabel?.text = dice[indexPath.row]
+        let cell = TableView1.dequeueReusableCell(withIdentifier: "FundTableViewCell", for: indexPath) as! FundTableViewCell 
+         
+        cell.setup(name: dice[indexPath.row])
         return cell
+        
         
     }
 }
