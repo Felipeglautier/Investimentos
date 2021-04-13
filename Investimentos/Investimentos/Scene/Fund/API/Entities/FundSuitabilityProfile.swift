@@ -14,6 +14,5 @@ class FundSuitabilityProfile: Codable {
     enum CodingKeys: String, CodingKey {
      
         case name
-    
-}
+    }
 }

@@ -11,10 +11,9 @@ class Specification: Codable {
     
     var fundSuitabilityProfile: FundSuitabilityProfile
     
-    
     enum CodingKeys: String, CodingKey {
         
         case fundSuitabilityProfile = "fund_suitability_profile"
-}
-
+    }
+    
 }

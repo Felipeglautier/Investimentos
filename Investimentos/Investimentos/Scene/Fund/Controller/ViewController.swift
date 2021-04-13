@@ -25,7 +25,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         return 6
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "FundTableViewCell", for: indexPath) as! FundTableViewCell 
+        let cell = tableView.dequeueReusableCell(withIdentifier: "FundTableViewCell", for: indexPath) as! FundTableViewCell
          
         cell.setup(name: dice[indexPath.row])
         return cell

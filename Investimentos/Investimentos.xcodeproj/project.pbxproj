@@ -11,6 +11,7 @@
 		68981EF52618ECE800B6B6BA /* Operability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68981EF42618ECE800B6B6BA /* Operability.swift */; };
 		68981EF92618ED3D00B6B6BA /* Specification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68981EF82618ED3D00B6B6BA /* Specification.swift */; };
 		68981EFC2618F17400B6B6BA /* FundSuitabilityProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68981EFB2618F17400B6B6BA /* FundSuitabilityProfile.swift */; };
+		68A104F52625DF8500D49D8C /* FundAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A104F42625DF8500D49D8C /* FundAPI.swift */; };
 		68DC9F152617A3540051ABDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DC9F142617A3540051ABDF /* AppDelegate.swift */; };
 		68DC9F172617A3540051ABDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DC9F162617A3540051ABDF /* SceneDelegate.swift */; };
 		68DC9F192617A3540051ABDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DC9F182617A3540051ABDF /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 		68981EF42618ECE800B6B6BA /* Operability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operability.swift; sourceTree = "<group>"; };
 		68981EF82618ED3D00B6B6BA /* Specification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specification.swift; sourceTree = "<group>"; };
 		68981EFB2618F17400B6B6BA /* FundSuitabilityProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundSuitabilityProfile.swift; sourceTree = "<group>"; };
+		68A104F42625DF8500D49D8C /* FundAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundAPI.swift; sourceTree = "<group>"; };
 		68DC9F112617A3540051ABDF /* Investimentos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Investimentos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68DC9F142617A3540051ABDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68DC9F162617A3540051ABDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,14 +63,6 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		68981EF22618E9A400B6B6BA /* Fund */ = {
-			isa = PBXGroup;
-			children = (
-				68981EF32618ECC000B6B6BA /* Entities */,
-			);
-			path = Fund;
-			sourceTree = "<group>";
-		};
 		68981EF32618ECC000B6B6BA /* Entities */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,9 +77,8 @@
 		68A104EC2625DC6B00D49D8C /* Fund */ = {
 			isa = PBXGroup;
 			children = (
-				68A104EF2625DDC300D49D8C /* ViewCell */,
-				68DC9F1A2617A3540051ABDF /* Main.storyboard */,
-				68DC9F182617A3540051ABDF /* ViewController.swift */,
+				68A104F22625DF4800D49D8C /* API */,
+				68A104F12625DF3700D49D8C /* Controller */,
 			);
 			path = Fund;
 			sourceTree = "<group>";
@@ -106,11 +99,29 @@
 			path = ViewCell;
 			sourceTree = "<group>";
 		};
+		68A104F12625DF3700D49D8C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				68A104EF2625DDC300D49D8C /* ViewCell */,
+				68DC9F1A2617A3540051ABDF /* Main.storyboard */,
+				68DC9F182617A3540051ABDF /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		68A104F22625DF4800D49D8C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				68981EF32618ECC000B6B6BA /* Entities */,
+				68A104F42625DF8500D49D8C /* FundAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		68DC9F082617A3540051ABDF = {
 			isa = PBXGroup;
 			children = (
 				AEA7545A72032BC7F7ADFE1D /* Frameworks */,
-				68981EF22618E9A400B6B6BA /* Fund */,
 				68DC9F132617A3540051ABDF /* Investimentos */,
 				5DD721BA36884893BE40A276 /* Pods */,
 				68DC9F122617A3540051ABDF /* Products */,
@@ -132,7 +143,6 @@
 				68DC9F2A2617A5DD0051ABDF /* AppSettings */,
 				68DC9F2B2617A5F40051ABDF /* Helpers */,
 				68DC9F2C2617A6000051ABDF /* Scene */,
-				68DC9F2D2617A60B0051ABDF /* Service */,
 			);
 			path = Investimentos;
 			sourceTree = "<group>";
@@ -169,13 +179,6 @@
 				68A104ED2625DC9A00D49D8C /* LaunchScreen */,
 			);
 			path = Scene;
-			sourceTree = "<group>";
-		};
-		68DC9F2D2617A60B0051ABDF /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Service;
 			sourceTree = "<group>";
 		};
 		AEA7545A72032BC7F7ADFE1D /* Frameworks */ = {
@@ -304,6 +307,7 @@
 				68DC9F152617A3540051ABDF /* AppDelegate.swift in Sources */,
 				68FEB6BD26223E130012B535 /* FundTableViewCell.swift in Sources */,
 				68981EF52618ECE800B6B6BA /* Operability.swift in Sources */,
+				68A104F52625DF8500D49D8C /* FundAPI.swift in Sources */,
 				68981EFC2618F17400B6B6BA /* FundSuitabilityProfile.swift in Sources */,
 				68981EF92618ED3D00B6B6BA /* Specification.swift in Sources */,
 				68981EF02618E99900B6B6BA /* Fund.swift in Sources */,
