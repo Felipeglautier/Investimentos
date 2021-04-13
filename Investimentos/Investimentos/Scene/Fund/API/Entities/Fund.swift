@@ -14,11 +14,9 @@ class Fund: Codable {
     var specification: Specification
     
     enum CodingKeys: String, CodingKey {
-        
         case simpleName = "simple_name"
         case operability
         case specification
-       
        }
  }
     

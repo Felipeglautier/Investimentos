@@ -12,6 +12,10 @@ class ViewController: UIViewController {
         
         tableView.delegate =  self
         tableView.dataSource = self
+        
+        FundAPI.shared.getFund { fund in
+            print(fund)
+        }
     }
 }
 
