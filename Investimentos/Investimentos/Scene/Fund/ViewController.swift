@@ -3,19 +3,16 @@ import Alamofire
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var TableView1: UITableView!
+    @IBOutlet weak var tableView: UITableView!
     
     var dice = ["Meta Plus Fim", "Sparta Debêntures Incentivadas FIRF CP", "CA Indosuez? Infraestrutura Incentivado FIC FI...", "Vinci Multiestratégia Fim", "Quatá Select Light ", "..."]
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        TableView1.delegate =  self
-        TableView1.dataSource = self
-        
+        tableView.delegate =  self
+        tableView.dataSource = self
     }
-
-
 }
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
@@ -28,11 +25,9 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         return 6
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = TableView1.dequeueReusableCell(withIdentifier: "FundTableViewCell", for: indexPath) as! FundTableViewCell 
+        let cell = tableView.dequeueReusableCell(withIdentifier: "FundTableViewCell", for: indexPath) as! FundTableViewCell 
          
         cell.setup(name: dice[indexPath.row])
         return cell
-        
-        
     }
 }

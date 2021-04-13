@@ -80,6 +80,32 @@
 			path = Entities;
 			sourceTree = "<group>";
 		};
+		68A104EC2625DC6B00D49D8C /* Fund */ = {
+			isa = PBXGroup;
+			children = (
+				68A104EF2625DDC300D49D8C /* ViewCell */,
+				68DC9F1A2617A3540051ABDF /* Main.storyboard */,
+				68DC9F182617A3540051ABDF /* ViewController.swift */,
+			);
+			path = Fund;
+			sourceTree = "<group>";
+		};
+		68A104ED2625DC9A00D49D8C /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				68DC9F1F2617A3570051ABDF /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		68A104EF2625DDC300D49D8C /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				68FEB6BC26223E120012B535 /* FundTableViewCell.swift */,
+			);
+			path = ViewCell;
+			sourceTree = "<group>";
+		};
 		68DC9F082617A3540051ABDF = {
 			isa = PBXGroup;
 			children = (
@@ -139,10 +165,8 @@
 		68DC9F2C2617A6000051ABDF /* Scene */ = {
 			isa = PBXGroup;
 			children = (
-				68DC9F182617A3540051ABDF /* ViewController.swift */,
-				68FEB6BC26223E120012B535 /* FundTableViewCell.swift */,
-				68DC9F1A2617A3540051ABDF /* Main.storyboard */,
-				68DC9F1F2617A3570051ABDF /* LaunchScreen.storyboard */,
+				68A104EC2625DC6B00D49D8C /* Fund */,
+				68A104ED2625DC9A00D49D8C /* LaunchScreen */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -441,7 +465,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = FG.Investimentos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -461,7 +485,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = FG.Investimentos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -14,16 +14,9 @@ class FundTableViewCell: UITableViewCell {
     @IBOutlet weak var percentage: UILabel!
     @IBOutlet weak var mininalApplication: UILabel!
       
-    
-    
-    
     func setup (name: String) {
         self.title.text = name
         
         self.view.layer.cornerRadius = 8.0
-        
-        
     }
 }
-
-
