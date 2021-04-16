@@ -11,16 +11,13 @@ class FundTableViewCell: UITableViewCell {
     
     @IBOutlet weak var view: UIView!
     @IBOutlet weak var title: UILabel!
-    @IBOutlet weak var percentage: UILabel!
+    @IBOutlet weak var fundRiskProfileName: UILabel!
     @IBOutlet weak var mininalApplication: UILabel!
       
     func setup (fund: Fund) {
         self.title.text = fund.simpleName
-        
-        //self.title.text = fund.Operability
-        //self.title.text = fund.Specification
-        
-        
+        self.fundRiskProfileName.text = fund.specification.fundSuitabilityProfile.name
+        self.mininalApplication.text = fund.operability.minimumInitialApplicationAmount
         
         self.view.layer.cornerRadius = 8.0
     }
