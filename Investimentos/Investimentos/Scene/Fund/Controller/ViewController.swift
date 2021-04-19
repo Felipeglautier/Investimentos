@@ -35,6 +35,7 @@ class ViewController: UIViewController {
     
     func loadingIndicator() {
         let alert = UIAlertController(title: nil, message: "Carregando...", preferredStyle: .alert)
+        
 
         let loadingIndicator = UIActivityIndicatorView(frame: CGRect(x: 10, y: 5, width: 50, height: 50))
         loadingIndicator.hidesWhenStopped = true
@@ -57,8 +58,10 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 6
     }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let fund = self.fund else { return UITableViewCell() }
+        
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "FundTableViewCell", for: indexPath) as! FundTableViewCell
          

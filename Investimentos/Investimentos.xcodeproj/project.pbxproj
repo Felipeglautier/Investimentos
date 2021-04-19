@@ -141,7 +141,6 @@
 			children = (
 				68DC9F292617A5B40051ABDF /* AppResources */,
 				68DC9F2A2617A5DD0051ABDF /* AppSettings */,
-				68DC9F2B2617A5F40051ABDF /* Helpers */,
 				68DC9F2C2617A6000051ABDF /* Scene */,
 			);
 			path = Investimentos;
@@ -163,13 +162,6 @@
 				68DC9F162617A3540051ABDF /* SceneDelegate.swift */,
 			);
 			path = AppSettings;
-			sourceTree = "<group>";
-		};
-		68DC9F2B2617A5F40051ABDF /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 		68DC9F2C2617A6000051ABDF /* Scene */ = {

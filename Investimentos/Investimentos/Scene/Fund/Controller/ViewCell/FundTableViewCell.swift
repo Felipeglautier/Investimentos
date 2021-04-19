@@ -17,8 +17,13 @@ class FundTableViewCell: UITableViewCell {
     func setup (fund: Fund) {
         self.title.text = fund.simpleName
         self.fundRiskProfileName.text = fund.specification.fundSuitabilityProfile.name
-        self.mininalApplication.text = fund.operability.minimumInitialApplicationAmount
+        self.mininalApplication.text = "R$ \(fund.operability.minimumInitialApplicationAmount)" 
         
         self.view.layer.cornerRadius = 8.0
+        
+         
     }
+    
 }
+
+
